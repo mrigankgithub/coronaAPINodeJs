@@ -6,6 +6,6 @@ const app = express();
 
 app.use('/api/v1/corona', route)
 
-app.listen('3001',() => {
+app.listen('3000',() => {
     console.log('app is running');
 })

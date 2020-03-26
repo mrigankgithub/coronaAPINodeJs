@@ -1,7 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 
-exports.getCorona = (req, res , next) => {
+exports.getCorona = (req, res) => {
   let data = [];
   request(
     "https://www.worldometers.info/coronavirus/",
